@@ -13,7 +13,7 @@
 
     <p id="description">Fill out the form below so we can create your dream macaron</p>
     
-    <form action="submission.html" method="POST" id="surveyform">
+    <form id="surveyform">
 
             <label for="name" id="name-label">Name:</label>
             <input type="text" id="name" name="name" placeholder="Full Name" required>
@@ -26,11 +26,13 @@
             <hr>
 
             <label for="number" id="number-label">How many boxes (8 per box) would you like?</label>
+            <br>
             <input type="number-label" id="number" name="number" placeholder="1" required>
             <br>
             <hr>
 
             <label>What size macarons would you like?</label>
+            <br>
             <input type="radio" name="size" id="mini">
             <label for="mini">Mini</label>
             <input type="radio" name="size" id="regular">
@@ -39,6 +41,7 @@
             <hr>
 
             <label for="dropdown">What flavor of filling would you like?</label>
+            <br>
             <select name="dropdown" id="dropdown">
                 <option value="chocolate">Dark Chocolate</option>
                 <option value="raspberry">Raspberry</option>
@@ -50,13 +53,32 @@
             <hr>
 
             <label for="amount">What amount of buttercream filling would you like?</label>
+            <br>
             <span>Extra Light</span>
             <input type="range" name="amount" id="amount" value="3" min="1" max="5">
             <span>Extra Heavy</span>
+            <br>
+            <hr>
 
+            <label for="adons">Add ons:</label>
+            <br>
+            <input type="checkbox" name="addons" id="chocolateganache" value="chocolateganache">
+            <label for="chocolateganache">Chocolate Ganache</label>
+            <input type="checkbox" name="addons" id="sprinkles" value="sprinkles">
+            <label for="sprinkles">Sprinkles</label>
+            <input type="checkbox" name="addons" id="nuts" value="nuts">
+            <label for="nuts">Pecans</label>
+            <br>
+            <hr>
 
+            <label for="gift">Gift note (optional):</label>
+            <br>
+            <textarea id="gift" name="gift" rows="3" cols="40"></textarea>
+            <br>
+
+            <input type="submit" value="Submit" id="submit">
 
     </form>
-
+    
 </body>
 </html>
