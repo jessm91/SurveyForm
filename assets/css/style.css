@@ -1,0 +1,22 @@
+* {
+    background-color: pink;
+    font-family: georgia;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+form {
+    color: gray;
+    font-family: arial;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: 2px solid white;
+    border-radius: 25px;
+    margin: 0px 500px;
+}
