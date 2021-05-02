@@ -1,22 +1,47 @@
 * {
-    background-color: pink;
-    font-family: georgia;
+    background-color: #ffe9ec;
 }
 
 h1 {
     text-align: center;
+    font-family: 'Parisienne', cursive;
+    font-size: 46px;
 }
 
 p {
     text-align: center;
+    font-family: Georgia;
+    font-weight: bold;
 }
 
 form {
     color: gray;
-    font-family: arial;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 26px;
     font-weight: bold;
     padding: 10px 20px;
     border: 2px solid white;
     border-radius: 25px;
-    margin: 0px 500px;
+    margin: 0px 490px;
+}
+
+#submit {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+    border: 2px solid white;
+    text-decoration: none;
+    background-color: white;
+    padding: 10px;
+    color: black;
+    font-family: Georgia;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+#dropdown {
+    font-size: 26px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: gray;
 }

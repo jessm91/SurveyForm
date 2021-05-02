@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Parisienne&family=Yanone+Kaffeesatz:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Mari's Macarons</title>
 </head>
@@ -28,11 +30,13 @@
 
             <label for="number" id="number-label">How many boxes (8 per box) would you like?</label>
             <br>
+            <br>
             <input type="number-label" id="number" name="number" placeholder="1" required>
             <br>
             <hr>
 
             <label>What size macarons would you like?</label>
+            <br>
             <br>
             <input type="radio" name="size" id="mini">
             <label for="mini">Mini</label>
@@ -42,6 +46,7 @@
             <hr>
 
             <label for="dropdown">What flavor of filling would you like?</label>
+            <br>
             <br>
             <select name="dropdown" id="dropdown">
                 <option value="chocolate">Dark Chocolate</option>
@@ -55,6 +60,7 @@
 
             <label for="amount">What amount of buttercream filling would you like?</label>
             <br>
+            <br>
             <span>Extra Light</span>
             <input type="range" name="amount" id="amount" value="3" min="1" max="5">
             <span>Extra Heavy</span>
@@ -62,6 +68,7 @@
             <hr>
 
             <label for="adons">Add ons:</label>
+            <br>
             <br>
             <input type="checkbox" name="addons" id="chocolateganache" value="chocolateganache">
             <label for="chocolateganache">Chocolate Ganache</label>
@@ -74,7 +81,9 @@
 
             <label for="gift">Gift note (optional):</label>
             <br>
+            <br>
             <textarea id="gift" name="gift" rows="3" cols="40"></textarea>
+            <br>
             <br>
 
             <input type="submit" value="Submit" id="submit">
