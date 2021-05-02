@@ -12,6 +12,7 @@ p {
     text-align: center;
     font-family: Georgia;
     font-weight: bold;
+    font-size: 20px;
 }
 
 form {
@@ -19,10 +20,21 @@ form {
     font-family: 'Yanone Kaffeesatz', sans-serif;
     font-size: 26px;
     font-weight: bold;
-    padding: 10px 20px;
+    padding: 30px 30px;
     border: 2px solid white;
     border-radius: 25px;
-    margin: 0px 490px;
+    margin: 0px 470px;
+}
+
+#name, #email, #number, #dropdown, #gift {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    color: gray;
+    background-color: white;
+    outline: none;
+    padding: 4px;
+    border: 2px solid white;
 }
 
 #submit {
@@ -33,15 +45,57 @@ form {
     border: 2px solid white;
     text-decoration: none;
     background-color: white;
-    padding: 10px;
-    color: black;
+    padding: 14px;
+    color: gray;
     font-family: Georgia;
     font-weight: bold;
-    font-size: 28px;
+    font-size: 20px;
 }
 
-#dropdown {
-    font-size: 26px;
-    font-family: 'Yanone Kaffeesatz', sans-serif;
-    color: gray;
+#submit:hover {
+    background-color: #DCDCDC;
+    color: white;
+    text-decoration: none;
+    border: 2px solid #DCDCDC;
+}
+
+
+/*Chrome*/
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    input[type='range'] {
+      overflow: hidden;
+      width: 170px;
+      -webkit-appearance: none;
+      background-color: #DCDCDC;
+    }
+    
+    input[type='range']::-webkit-slider-runnable-track {
+      height: 20px;
+      -webkit-appearance: none;
+      color: #ff9eb5;
+      margin-top: -1px;
+    }
+    
+    input[type='range']::-webkit-slider-thumb {
+      width: 10px;
+      -webkit-appearance: none;
+      height: 20px;
+      background: white;
+      box-shadow: -80px 0 0 80px #ff9eb5;
+    }
+
+}
+/** FF*/
+input[type="range"]::-moz-range-progress {
+  background-color: #ff9eb5; 
+}
+input[type="range"]::-moz-range-track {  
+  background-color: #DCDCDC;
+}
+/* IE*/
+input[type="range"]::-ms-fill-lower {
+  background-color: #ff9eb5; 
+}
+input[type="range"]::-ms-fill-upper {  
+  background-color: #DCDCDC;
 }
