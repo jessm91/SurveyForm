@@ -14,15 +14,15 @@
 
     <img src="./assets/images/logo.png">
 
-    <header id="title">
-        <h1>Parisian snacks in the comfort of your own home</h1>
+    <header>
+        <h1 id="title">Parisian snacks in the comfort of your own home</h1>
     </header>
 
     <p id="description">Fill out the form below so we can create your dream macaron</p>
     <br>
     <br>
     
-    <form id="surveyform">
+    <form id="survey-form">
 
             <label for="name" id="name-label">Name:</label>
             <input type="text" id="name" name="name" placeholder="Full Name" required>
@@ -37,16 +37,16 @@
             <label for="number" id="number-label">How many boxes (8 per box) would you like?</label>
             <br>
             <br>
-            <input type="number-label" id="number" name="number" placeholder="1" required>
+            <input type="number" id="number" name="number" min="1" max="8" placeholder="1" required>
             <br>
             <hr>
 
             <label>What size macarons would you like?</label>
             <br>
             <br>
-            <input type="radio" name="size" id="mini">
+            <input type="radio" name="size" id="mini" value="mini">
             <label for="mini">Mini</label>
-            <input type="radio" name="size" id="regular">
+            <input type="radio" name="size" id="regular" value="max">
             <label for="regular">Regular</label>
             <br>
             <hr>
