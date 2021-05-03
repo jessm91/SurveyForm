@@ -26,6 +26,14 @@ form {
     margin: 0px 470px;
 }
 
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 400px;
+    width: auto;
+}
+
 #name, #email, #number, #dropdown, #gift {
     font-family: 'Yanone Kaffeesatz', sans-serif;
     font-size: 22px;
