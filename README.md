@@ -6,7 +6,7 @@ This is an order form for a macaron bakery and was created using HTML and CSS. T
 
 ## Deployment
 
-https://jessm91.github.io/productlanding/
+https://jessm91.github.io/surveyform
 
 ## Credits
 
