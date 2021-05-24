@@ -107,3 +107,21 @@ input[type="range"]::-ms-fill-lower {
 input[type="range"]::-ms-fill-upper {  
   background-color: #DCDCDC;
 }
+
+@media (max-width: 800px) {
+  form {
+    font-size: 14px;
+    margin: auto;
+  }
+}
+
+@media (max-width: 550px) {
+  form {
+    font-size: 14px;
+    margin: auto;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+}
