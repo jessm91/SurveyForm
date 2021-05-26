@@ -2,7 +2,7 @@
 
 ## Description
 
-This is an order form for a macaron bakery and was created using HTML and CSS. This is the first project for the Responsive Web Design Certificate through freecodecamp.org
+This is an order form for a macaron bakery and was created using HTML and CSS. This is the second project for the Responsive Web Design Certificate through freecodecamp.org
 
 ## Deployment
 
