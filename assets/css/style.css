@@ -20,10 +20,11 @@ form {
     font-family: 'Yanone Kaffeesatz', sans-serif;
     font-size: 26px;
     font-weight: bold;
-    padding: 30px 30px;
+    padding: 30px;
     border: 2px solid white;
     border-radius: 25px;
-    margin: 0px 470px;
+    margin-right: 470px;
+    margin-left: 470px;
 }
 
 img {
@@ -109,19 +110,24 @@ input[type="range"]::-ms-fill-upper {
 }
 
 @media (max-width: 800px) {
+
   form {
-    font-size: 14px;
     margin: auto;
+  }
+
+  textarea {
+    width: 90%;
   }
 }
 
-@media (max-width: 550px) {
+@media (max-width: 600px) {
+
   form {
-    font-size: 14px;
     margin: auto;
+    font-size: 20px;
   }
 
-  h1 {
-    font-size: 28px;
+  textarea {
+    width: 90%;
   }
 }
